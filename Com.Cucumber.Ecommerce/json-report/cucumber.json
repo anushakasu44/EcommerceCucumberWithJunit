@@ -1,0 +1,170 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13242297200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Automate End to End Buy Order functionality.",
+        "description": "",
+        "id": "automate-user-registration-process;automate-end-to-end-buy-order-functionality.",
+        "after": [
+          {
+            "result": {
+              "duration": 897559500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 162365600,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Open the URL",
+            "match": {
+              "location": "UserRegistrationTest.open_the_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1309401900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Click on sign in link",
+            "match": {
+              "location": "UserRegistrationTest.click_on_sign_in_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1543720400,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Login to the website",
+            "match": {
+              "location": "UserRegistrationTest.login_to_the_website()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 337070600,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Move your cursor over Women\u0027s link.",
+            "match": {
+              "location": "UserRegistrationTest.move_your_cursor_over_Women_s_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1305153300,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Click on sub menu \u0027T-shirts\u0027",
+            "match": {
+              "location": "UserRegistrationTest.click_on_sub_menu_T_shirts()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1450969400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "\u0027More\u0027 button will be displayed, click on \u0027More\u0027 button.",
+            "match": {
+              "location": "UserRegistrationTest.more_button_will_be_displayed_click_on_More_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 572584900,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Select quantity,size,colour and add to cart",
+            "match": {
+              "location": "UserRegistrationTest.select_quantity_size_colour_and_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1990659400,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Click \u0027Proceed to checkout\u0027 button.",
+            "match": {
+              "location": "UserRegistrationTest.click_Proceed_to_checkout_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6807179500,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Complete the buy order process till payment.",
+            "match": {
+              "location": "UserRegistrationTest.complete_the_buy_order_process_till_payment()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58429300,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Make sure that Product is ordered.",
+            "match": {
+              "location": "UserRegistrationTest.make_sure_that_Product_is_ordered()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 29,
+            "name": "@e2e"
+          }
+        ]
+      }
+    ],
+    "name": "Automate User Registration Process",
+    "description": "",
+    "id": "automate-user-registration-process",
+    "keyword": "Feature",
+    "uri": "UserRegistration.feature"
+  }
+]

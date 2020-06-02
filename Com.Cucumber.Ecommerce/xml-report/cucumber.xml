@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="29.677391">
+<testcase classname="Automate User Registration Process" name="Automate End to End Buy Order functionality." time="29.677391">
+<system-out><![CDATA[Given Open the URL..........................................................passed
+And Click on sign in link...................................................passed
+And Login to the website....................................................passed
+And Move your cursor over Women's link......................................passed
+When Click on sub menu 'T-shirts'...........................................passed
+And 'More' button will be displayed, click on 'More' button.................passed
+And Select quantity,size,colour and add to cart.............................passed
+And Click 'Proceed to checkout' button......................................passed
+And Complete the buy order process till payment.............................passed
+And Make sure that Product is ordered.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
